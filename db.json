@@ -1,0 +1,80 @@
+{
+	"profiles": [
+		{
+			"camera": {
+				"position": 2,
+				"captureDepth": true
+			},
+			"mouthDetection": {
+				"showBboxes": false,
+				"tracking": {
+					"enabled": false,
+					"confidenceThreshold": {
+						"value": 0.9
+					},
+					"kickOffThreshold":  {
+						"value": 0.0
+					}
+				}
+			},
+			"poseAndMetrics": {
+				"showMetrics": false,
+				"poseAggregationWindow": {
+					"value": 30
+				},
+				"aggregationWindow": {
+					"value": 10
+				}
+			},
+			"showTeethSegmentation": false,
+			"teethSegmentationFrameRate": {
+				"value": 1
+			},
+			"showBlurDetection": false,
+			"blurDetectionThreshold": {
+				"value": 115
+			},
+			"showFaceOutline": true,
+			"showTimings": false,
+			"saveTeethPredictionResults": false
+		},
+		{
+			"camera": {
+				"position": 2,
+				"captureDepth": true
+			},
+			"mouthDetection": {
+				"showBboxes": false,
+				"tracking": {
+					"enabled": false,
+					"confidenceThreshold": {
+						"value": 0.9
+					},
+					"kickOffThreshold":  {
+						"value": 0.0
+					}
+				}
+			},
+			"poseAndMetrics": {
+				"showMetrics": false,
+				"poseAggregationWindow": {
+					"value": 30
+				},
+				"aggregationWindow": {
+					"value": 10
+				}
+			},
+			"showTeethSegmentation": false,
+			"teethSegmentationFrameRate": {
+				"value": 1
+			},
+			"showBlurDetection": false,
+			"blurDetectionThreshold": {
+				"value": 115
+			},
+			"showFaceOutline": true,
+			"showTimings": false,
+			"saveTeethPredictionResults": false
+		}
+	]
+}
