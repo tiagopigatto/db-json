@@ -81,6 +81,30 @@
 					}
 				}
 			},
+			"teethDetection": {
+				"showBboxes": false,
+				"showUpper": false,
+				"showLower": false,
+				"showJawCenters": false,
+				"tracking": {
+					"enabled": false,
+					"confidenceThreshold": {
+						"value": 0.8
+					},
+					"kickOffThreshold":  {
+						"value": 0.1
+					}
+				},
+				"aggregationWindow": {
+						"value": 12
+					},
+				"confidenceThreshold": {
+						"value": 0.28
+					},
+				"iouThreshold": {
+						"value": 0.1
+					}
+			},
 			"poseAndMetrics": {
 				"showMetrics": false,
 				"poseAggregationWindow": {
