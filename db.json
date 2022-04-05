@@ -7,7 +7,7 @@
 				"captureDepth": true
 			},
 			"mouthDetection": {
-				"showBboxes": false,
+				"showBboxes": true,
 				"tracking": {
 					"enabled": false,
 					"confidenceThreshold": {
@@ -19,7 +19,7 @@
 				}
 			},
 			"teethDetection": {
-				"showBboxes": false,
+				"showBboxes": true,
 				"showUpper": false,
 				"showLower": false,
 				"showJawCenters": false,
@@ -51,7 +51,7 @@
 					"value": 10
 				}
 			},
-			"showTeethSegmentation": false,
+			"showTeethSegmentation": true,
 			"teethSegmentationFrameRate": {
 				"value": 1
 			},
