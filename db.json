@@ -20,8 +20,8 @@
 			},
 			"teethDetection": {
 				"showBboxes": true,
-				"showUpper": false,
-				"showLower": false,
+				"showUpper": true,
+				"showLower": true,
 				"showJawCenters": false,
 				"tracking": {
 					"enabled": false,
